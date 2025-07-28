@@ -28,6 +28,16 @@ const projects = [
     style: "circle",
     codeUrl: "https://github.com/DT9030/Number-Plate-recognition-using-OCR",
   },
+  {
+    title: "EntertainBot – AI-Powered Entertainment Recommender",
+    date: "Jul 2025",
+    tech: ["Next.js", "Tailwind CSS", "LLaMA 3 API", "AniList API"],
+    description:
+      "Built a chatbot-based entertainment recommendation app using LLaMA 3 for natural conversations. Recommends anime, web series, and movies with a clean and fast UI using the AniList API.",
+    style: "hexagon",
+    codeUrl: "https://github.com/DT9030/EntertainBot",
+    liveUrl: "https://entertain-bot.vercel.app/",
+  },
 ]
 
 export default function ProjectsSection() {
